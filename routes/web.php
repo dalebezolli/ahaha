@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return response('Cringe?');
+    return response('Pantelo patwneis - Tryf 2024');
 });
 
 Route::get('/dashboard', function () {
