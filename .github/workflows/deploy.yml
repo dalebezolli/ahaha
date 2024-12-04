@@ -1,0 +1,10 @@
+name: Deploy
+run-name: Deploy to RPI
+on: [push]
+jobs:
+    HelloWorld:
+        runs-on: self-hosted
+        steps:
+          - run: ls ~/laravel-test
+          - run: cd ~/laravel-test && git pull
+          - run: pwd
